@@ -1,0 +1,25 @@
+bool
+
+string
+
+int  int8  int16  int32  int64 //int negativo a positivo
+uint uint8 uint16 uint32 uint64 uintptr // so positivo
+
+byte // apelido para uint8
+
+rune // apelido para int32 ~= um caractere (ponto de código Unicode) - muito Viking
+
+float32 float64
+
+complex64 complex128
+
+
+/conversoes
+var i int = 42
+var f float64 = float64(i)
+var u uint = uint(f)
+
+// sintaxe alternativa
+i := 42
+f := float64(i)
+u := uint(f)
